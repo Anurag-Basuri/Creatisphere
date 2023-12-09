@@ -1,0 +1,148 @@
+
+.story-container{
+    display:flex;
+    height:88px;
+    background-color:#fff;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 13px;
+    padding:13px;
+}
+.scroll_story{
+    width: 53rem;
+    margin: 10px 48px;
+    margin-top: 10px;
+    overflow-x: scroll;
+    background-color:#fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.scroll_story::-webkit-scrollbar{
+    width: 0px;
+}
+
+.content{
+    display:inline-block;
+    height:100px;
+    margin: 10px;
+}
+.img-container{
+    width: 78px;
+    height:78px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #f52323;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+.text-container{
+    text-align: center;
+    margin-top: 5px;;
+}
+
+#main_container {
+    height: 78%;
+    margin: 10px 48px ;
+    margin-top: 15px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.all-messages{
+    width: 40%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+.mess{
+    width:62%;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 7%;
+    border-bottom: 1px solid black;
+    /* position: fixed;
+    width:;*/
+}
+
+#left{
+    border-top-left-radius: 10px;
+}
+
+#right{
+    border-top-right-radius: 10px;
+    gap: 70%;
+}
+
+.messageprof img{
+    height: 60px;
+    border-radius: 50%;
+}
+
+.messageprof div{
+    line-height: 4px;
+    margin-left: 20px;
+    width: 60%;
+    border-bottom:1px solid gray;
+}
+
+.messageprof p{color: #575959;
+font-size: small;}
+
+#vvv{
+    overflow-y: scroll;
+    max-height: 92%;
+}
+
+.messageprof{
+    align-items: center;
+    display:flex;
+    margin: 10px;
+    margin-left: 0;
+    padding-left: 20px;
+    height: 70px;
+    background-color:white;
+}
+
+.messageprof:hover{
+    background-color: #979696;
+    border-left: 4px solid rgb(1, 73, 1);
+}
+
+.msbox{
+    background-color: white;
+    width: 100%;
+    height: 68%;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.phat{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 210px;
+}
+
+.send{
+    align-items: center;
+    display: flex;
+    width: 96%;
+    background-color: whitesmoke;
+    height: 7%;
+    border-top: 1px solid black;
+    border-bottom-right-radius: 10px;
+    padding-left: 20px;
+    gap: 10px;
+}

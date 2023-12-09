@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/loginoutcss.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>LOGIN | SIGNUP | Creatisphere</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Metal+Mania">
+</head>
+
+<body>
+  <header>
+    <span id="logo_image">
+      <img
+        src="../image/crab-colorful-illustration-abstract-logo-design_341269-278-removebg-preview-transformed-removebg-preview.png">
+    </span>
+    <span id="logo">
+      <a href="#">CreatiSphere</a>
+    </span>
+   
+  </header>
+  <div class="body">
+    <div class="container" id="container">
+      <div class="form-container sign-up">
+        <form>
+          <h2>Sign Up</h2>
+          <div class="social-icons">
+            <a href="#" class="icon">
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fa-brands fa-microsoft"></i>
+            </a>
+          </div>
+          <span>
+            or sign-up using your email and phone no.
+          </span>
+          <input type="text" placeholder="Userame">
+          <input type="email" placeholder="Email">
+          <input type="phone no." placeholder="Phone no.">
+          <input type="password" placeholder="Password">
+          <a href="index.html" class="first">Sign Up</a>
+        </form>
+      </div>
+      <div class="form-container sign-in">
+        <form>
+          <h2>Sign In</h2>
+          <div class="social-icons">
+            <a href="#" class="icon">
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fa-brands fa-microsoft"></i>
+            </a>
+          </div>
+          <span>
+            or sign-in using Username, email or phone no.
+          </span>
+          <input type="email" id="username" placeholder="Username, Email or Phone no.">
+          <input type="password" id="password" placeholder="Password">
+          <a href="#" class="forget">forgot password ?</a>
+          <button type="submit" class="first" onclick="login()">Login</button>
+        </form>
+      </div>
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Welcome Back!</h1>
+            <p>Enter your details to use all of site features</p>
+            <button class="hidden" id="login">Sign In</button>
+          </div>
+          <div class="toggle-panel toggle-right">
+            <h1>Hello, Welcome!</h1>
+            <p>Register with your details to use all of site features</p>
+            <button class="hidden" id="register">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../javascript/log.js">
+    </script>
+  </div>
+</body>
+
+</html>

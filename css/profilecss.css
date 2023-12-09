@@ -1,0 +1,122 @@
+.sef{
+    display: inline-flex;
+    gap: 15rem;
+    margin-top: 10px;
+}
+
+.sef span{
+    align-items: center;
+}
+.follower{
+    margin-left: 80px;
+}
+.posts{
+    text-decoration: underline 2px;
+}
+.post{
+    /* height:50rem; */
+    background-color:white;
+}
+
+.profile-gallery{
+    margin-top:20px !important;
+    padding-top:0px !important;
+}
+
+.btbox {
+    width: 99.1%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(155, 184, 197);
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    gap: 15px;
+}
+
+.bio {
+    height: 33rem;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+.coverpic {
+    background-image: url('https://iwritingsolutions.com/wp-content/uploads/2022/05/you-can-live-now.-thank-you.jpg');
+    width: 100%;
+    height: 16rem;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.coverpic-2{
+    background-image:url('../image/Screenshot\ 2023-11-19\ 021507.png');
+    background-size:contain;
+}
+.coverpic::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 16rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
+}
+
+.profilepic {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+    top:220px;
+    width: 30%;
+    display: flex;
+}
+
+.profilepic img {
+    width: 9.5rem;
+    height: 9.5rem;
+    border: 4px solid whitesmoke;
+    border-radius: 50%; 
+}
+
+.aboutm {
+    margin-top: 6rem;
+    margin-left: 5rem;
+    width: 80%;
+}
+
+.editor {
+    display: flex;
+}
+
+.edit {
+    margin-top: 2rem;
+    margin-right: 4rem;
+}
+
+.edit a:hover {
+    opacity: 0.5;
+}
+
+
+.edit a {
+    margin: 0.5rem;
+    display: flex;
+    width: 5rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    background-color: #8cc1d8;
+    align-items: center;
+    gap: 5px;
+    border-radius: 1rem;
+}
+
+.icon {
+    font-size: medium;
+}
+

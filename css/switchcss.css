@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bff1ed83;
+}
+
+body {
+    background-image: url('../image/background.jpg');
+    background-position: fixed;
+    background-size: cover;
+}
+
+header {
+    padding-left: 20px;
+    width: 100%;
+    background-color: rgb(252, 253, 252);
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 10vh;
+    gap: 20px;
+}
+
+#logo {
+    position: relative;
+    right: 20px;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #060606;
+    font-family: 'Metal Mania', sans-serif, Arial, Helvetica;
+    font-size: xx-large;
+}
+
+#logo_image img {
+    height: 50px;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 7rem;
+    padding: 20px;
+    border: 3px solid #090909;
+    background-color: #a0c89f;
+    border-radius: 10px;
+    height: 40vh;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 2px solid #090909;
+    background-color: whitesmoke;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 4px;
+}
+
+.profile h3  {
+    margin: 0;
+    color:black;
+   
+}
+.profile a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.profile a:hover {
+    text-decoration: none;
+}
+
+.add-account {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.add-account img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 4px;
+}
+
+.add-account button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-account button:hover {
+    background-color: #0069d9;
+}

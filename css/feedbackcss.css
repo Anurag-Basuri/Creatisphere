@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.n41TadjDNHuTStWCLsSAtgHaE8?pid=ImgDet&rs=1);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    margin-top: 0%;
+    width: 100%;
+    background-color: #fff;
+    height: 64px;
+    font-family: 'Metal Mania';
+}
+.logo{
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 90px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    /*justify-content: center;*/
+    width: 150%;
+    position: fixed;
+    margin-left: -1%;
+    margin-top: -1%;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0%;
+    display:flex;
+    align-items:center;
+    margin-left:-15px;
+}
+.helpcenter{
+    font-size:150%;
+    background-color: darkkhaki;
+    font-style: oblique;
+    text-align: center;
+    padding:0.9rem;
+    margin-top: 4rem;
+}
+.everything{
+    background-color: rgb(233, 211, 181);
+    margin: auto;
+    text-align:left;
+    width: 42rem;
+    padding: 3rem;
+    margin-top: 3rem;
+    line-height: 1.5rem;
+    border-bottom:dotted 5px;
+}
+footer span,div{
+    margin: 4rem;
+}
+footer{
+    text-align: center;
+    background-color: rgb(243, 221, 154);
+    margin:5rem;
+    border-style: inset;
+}

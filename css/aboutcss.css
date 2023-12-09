@@ -1,0 +1,81 @@
+body{
+  padding: 14rem;
+  background-image: url(https://www.designmantic.com/blog/wp-content/uploads/2016/07/social-media-cover-image.png);
+  background-attachment: fixed;
+}
+header{
+  font-family: 'Metal Mania';
+}
+.logo{
+  background-color: #fff;
+  display: -webkit-box;
+    display: -ms-flexbox;
+  display: flex;
+  height: 90px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  /*justify-content: center;*/
+  width: 150%;
+  position: fixed;
+  margin-left: -16%;
+  margin-top: -16%;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-bottom: 0%;
+  display:flex;
+  align-items:center;
+}
+main{
+  border-bottom-style: solid;
+  padding:2rem;
+  margin-top:-10%;
+}
+.width{
+  max-width: 40rem;
+  text-align: center;
+  margin: auto;
+  background-color:azure;
+  padding: 2rem;
+}
+.pehladiv, .dusradiv, .chouthadiv {
+  text-align: center;
+}
+.tishradiv p{
+  margin: auto;
+  max-width: 30rem;
+}
+.tishradiv li{
+  max-width: 20rem;
+  margin: auto;
+  line-height: 1.9rem;
+}
+.last{
+  margin: 4rem;
+  text-align: center;
+}
+footer div{
+  text-align: center;
+  margin: 2rem;
+  text-decoration:underline;
+}
+footer span{
+  margin: 4rem;
+}
+footer{
+  text-align: center;
+  background-color: azure;
+  padding: 3rem;
+  margin:4rem;
+}
+section span,div{
+  margin: 4rem;
+}
+  section{
+    text-align: center;
+    background-color: rgb(243, 221, 154);
+    margin:3rem;
+    border-style: inset;
+    margin-left: -22%;
+    margin-right: -22%;
+    margin-bottom: -17%;
+  }
