@@ -1,4 +1,4 @@
 # CreatiSphere
-<a>https://adityapartapsingh.github.io/creatisphere.github.io/html/</a> <br>
+<a>https://anurag-basuri.github.io/Creatisphere.github.io/html/</a> <br>
 Website Project Report: Social Media  Platform for Artists
 
